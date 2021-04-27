@@ -1,0 +1,20 @@
+# Ignore models and datasets
+dataset/
+Data/
+metas/
+
+# ignore celeba-spoof README
+celeba-spoof-README
+
+# Ignore weights and model
+notebooks/weights
+notebooks/models
+notebooks/.ipynb_checkpoints
+
+# Editor-based Rest Client
+.vscode/
+
+# Executables
+*.exe
+*.out
+*.app
