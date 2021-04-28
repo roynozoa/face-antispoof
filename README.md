@@ -4,6 +4,8 @@ Muhammad Adisatriyo Pratama - May 2021
 ____________________
 ## Face Antispoofing using Celeb-A Spoof dataset with TensorFlow
 
+Using 120k images from CelebA-Spoof Dataset
+
 CelebA-Spoof Dataset Reference:
 - https://github.com/Davidzhangyuanhan/CelebA-Spoof
 

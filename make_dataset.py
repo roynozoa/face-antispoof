@@ -6,8 +6,8 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-TRAIN_LABEL_TXT = 'metas/intra_test/train_label.txt'
-TEST_LABEL_TXT = 'metas/intra_test/test_label.txt'
+TRAIN_LABEL_TXT = 'metas/intra_test/train_label_120k.txt'
+TEST_LABEL_TXT = 'metas/intra_test/test_label_120k.txt'
 
 
 def create_train():
@@ -22,6 +22,7 @@ def create_train():
         else:
             shutil.copy(source, 'dataset/train/spoof')
         i += 1
+    logging.info('Copying train dataset success')
 
 def create_test():
     logging.info('Copying test dataset ...')
@@ -35,6 +36,7 @@ def create_test():
         else:
             shutil.copy(source, 'dataset/test/spoof')
         i += 1
+    logging.info('Copying test dataset success')
 
 if __name__ == '__main__':
    logging.info('Creating dataset ...')

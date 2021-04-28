@@ -1,5 +1,6 @@
 # Ignore models and datasets
 dataset/
+dataset-full/
 Data/
 metas/
 
