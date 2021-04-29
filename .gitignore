@@ -11,6 +11,7 @@ celeba-spoof-README
 notebooks/weights
 notebooks/models
 notebooks/.ipynb_checkpoints
+notebooks/checkpoints
 
 # Editor-based Rest Client
 .vscode/
