@@ -3,6 +3,7 @@ dataset/
 dataset-full/
 Data/
 metas/
+dataset-crop/
 
 # ignore celeba-spoof README
 celeba-spoof-README
