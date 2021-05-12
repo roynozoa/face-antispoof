@@ -13,6 +13,8 @@ notebooks/weights
 notebooks/models
 notebooks/.ipynb_checkpoints
 notebooks/checkpoints
+notebooks/test_*.ipynb
+notebooks/*-cropped*.ipynb
 
 # Editor-based Rest Client
 .vscode/
