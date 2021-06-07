@@ -5,6 +5,10 @@ Data/
 metas/
 dataset-crop/
 
+
+# Ignore Experiments
+notebooks/experiment
+
 # ignore celeba-spoof README
 celeba-spoof-README
 
@@ -13,8 +17,7 @@ notebooks/weights
 notebooks/models
 notebooks/.ipynb_checkpoints
 notebooks/checkpoints
-notebooks/test_*.ipynb
-# notebooks/*-cropped*.ipynb
+
 
 # Editor-based Rest Client
 .vscode/
