@@ -1,0 +1,6 @@
+PIL
+tensorflow
+flask
+numpy
+io
+base64
