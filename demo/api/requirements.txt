@@ -1,6 +1,3 @@
-PIL
+Pillow
 tensorflow
 flask
-numpy
-io
-base64
