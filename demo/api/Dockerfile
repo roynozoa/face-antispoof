@@ -1,18 +1,12 @@
-FROM python:3.7
+FROM python:3.8-slim-buster
 
-## App engine stuff
-# Expose port you want your app on
-EXPOSE 8080
+WORKDIR /app
 
-# Upgrade pip 
-RUN pip install -U pip
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
 
-COPY requirements.txt app/requirements.txt
-RUN pip install -r app/requirements.txt
+COPY . .
 
-# Create a new directory for app (keep it in its own directory)
-COPY . /app
-WORKDIR app
+ENV FLASK_APP=main
 
-# Run
-ENTRYPOINT ["python3", "main.py"]
+CMD ["python3", "-m" , "flask", "run", "--host=0.0.0.0"]
