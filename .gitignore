@@ -5,6 +5,9 @@ Data/
 metas/
 dataset-crop/
 
+# ignore documents
+docs/
+presentation.ipynb
 
 
 # Ignore Experiments
